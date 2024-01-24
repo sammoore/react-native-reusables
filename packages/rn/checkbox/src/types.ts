@@ -1,4 +1,4 @@
-import type { ForceMountable } from '../types';
+import type { ForceMountable } from '@rn-primitives/interal-types';
 
 interface CheckboxRootProps {
   checked: boolean;

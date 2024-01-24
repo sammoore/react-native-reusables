@@ -1,28 +1,15 @@
 {
-  "name": "react-native-reusables",
-  "main": "expo-router/entry",
+  "name": "rn-primitives",
+  "private": true,
   "version": "1.0.0",
-  "scripts": {
-    "start": "expo start -c",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "test": "jest --watchAll"
-  },
-  "jest": {
-    "preset": "jest-expo"
-  },
+  "license": "MIT",
+  "workspaces": [
+    "packages/*/*"
+  ],
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
     "@gorhom/bottom-sheet": "^4",
     "@hookform/resolvers": "^3.3.3",
-    "@radix-ui/react-accordion": "^1.1.2",
-    "@radix-ui/react-alert-dialog": "^1.0.5",
-    "@radix-ui/react-aspect-ratio": "^1.0.3",
-    "@radix-ui/react-avatar": "^1.0.4",
-    "@radix-ui/react-checkbox": "^1.0.4",
-    "@radix-ui/react-collapsible": "^1.0.3",
-    "@radix-ui/react-context-menu": "^2.1.5",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
     "@radix-ui/react-hover-card": "^1.0.7",
@@ -51,7 +38,6 @@
     "@shopify/flash-list": "1.4.3",
     "@tanstack/react-table": "^8.11.2",
     "class-variance-authority": "^0.7.0",
-    "clsx": "^2.0.0",
     "expo": "~49.0.15",
     "expo-blur": "~12.4.1",
     "expo-clipboard": "~4.3.1",
@@ -83,7 +69,6 @@
     "react-native-svg": "13.9.0",
     "react-native-toast-message": "^2.2.0",
     "react-native-web": "~0.19.6",
-    "tailwind-merge": "^2.1.0",
     "tailwindcss-animate": "^1.0.7",
     "zod": "^3.22.4",
     "zustand": "^4.4.7"
