@@ -1,1 +1,1 @@
-export { useAugmentedRef } from './useAugmentedRef';
+export { useAugmentedRef } from './use-augmented-ref';
