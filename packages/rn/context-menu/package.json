@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "@radix-ui/react-context-menu": "^2.1.5",
+    "@radix-ui/react-popover": "^1.0.7",
     "@rn-primitives/empty-gesture-recognizer-event": "workspace:*",
     "@rn-primitives/internal-types": "workspace:*",
     "@rn-primitives/slot": "workspace:*",
@@ -50,4 +51,5 @@
     "@types/react": {
       "optional": true
     }
+  }
 }

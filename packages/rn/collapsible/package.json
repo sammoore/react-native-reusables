@@ -1,5 +1,5 @@
 {
-  "name": "@rn-primitives/cn",
+  "name": "@rn-primitives/collapsible",
   "version": "1.0.0",
   "license": "MIT",
   "exports": {
@@ -48,4 +48,5 @@
     "@types/react": {
       "optional": true
     }
+  }
 }
