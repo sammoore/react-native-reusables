@@ -7,7 +7,7 @@ import type {
   SlottableViewProps,
   ViewRef,
 } from '@rn-primitives/internal-types';
-import { ToggleGroupUtils } from '@rn-primitives/toggle-group-utils';
+import * as ToggleGroupUtils from '@rn-primitives/toggle-group-utils';
 import type { ToggleGroupItemProps, ToggleGroupRootProps } from './types';
 
 const ToggleGroupContext = React.createContext<ToggleGroupRootProps | null>(

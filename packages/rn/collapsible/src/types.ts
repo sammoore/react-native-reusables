@@ -1,4 +1,4 @@
-import type { ForceMountable } from '@rn-primitives/types';
+import type { ForceMountable } from '@rn-primitives/internal-types';
 
 interface CollapsibleRootProps {
   open: boolean;

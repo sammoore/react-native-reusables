@@ -1,6 +1,8 @@
 import * as Dialog from '@radix-ui/react-dialog';
 import React from 'react';
 import {
+  // TODO: error TS6133: 'Modal' is declared but its value is never read.
+  // @ts-expect-error
   Modal,
   Pressable,
   Text,

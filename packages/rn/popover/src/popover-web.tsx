@@ -9,7 +9,7 @@ import type {
   SlottablePressableProps,
   SlottableViewProps,
   ViewRef,
-} from '@rn-primitives/types';
+} from '@rn-primitives/internal-types';
 import type {
   PopoverOverlayProps,
   PopoverPortalProps,
