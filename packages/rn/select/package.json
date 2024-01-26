@@ -36,8 +36,8 @@
   "dependencies": {
     "@radix-ui/react-select": "^2.0.0",
     "@rn-primitives/internal-types": "workspace:*",
-    "@rn-primitives/slot": "workspace:*",
     "@rn-primitives/portal": "workspace:*",
+    "@rn-primitives/slot": "workspace:*",
     "@rn-primitives/use-augmented-ref": "workspace:*",
     "@rn-primitives/use-relative-position": "workspace:*",
     "zustand": "^4.4.7"

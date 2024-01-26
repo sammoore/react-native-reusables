@@ -33,8 +33,6 @@
   "bugs": {
     "url": "https://github.com/roninoss/rn-primitives/issues"
   },
-  "dependencies": {
-  },
   "peerDependencies": {
     "@types/react": "*",
     "react": "^18.2.0",
