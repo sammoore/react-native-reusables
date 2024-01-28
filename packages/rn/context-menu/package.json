@@ -34,12 +34,15 @@
     "url": "https://github.com/roninoss/rn-primitives/issues"
   },
   "dependencies": {
+    "@babel/runtime": "^7.23.9",
     "@radix-ui/react-context-menu": "^2.1.5",
     "@radix-ui/react-popover": "^1.0.7",
     "@rn-primitives/empty-gesture-recognizer-event": "workspace:*",
     "@rn-primitives/internal-types": "workspace:*",
+    "@rn-primitives/portal": "workspace:*",
     "@rn-primitives/slot": "workspace:*",
     "@rn-primitives/use-augmented-ref": "workspace:*",
+    "@rn-primitives/use-relative-position": "workspace:*",
     "zustand": "^4.4.7"
   },
   "peerDependencies": {

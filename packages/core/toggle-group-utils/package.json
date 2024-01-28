@@ -32,5 +32,8 @@
   },
   "bugs": {
     "url": "https://github.com/roninoss/rn-primitives/issues"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.23.9"
   }
 }

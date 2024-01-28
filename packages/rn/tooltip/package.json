@@ -34,8 +34,10 @@
     "url": "https://github.com/roninoss/rn-primitives/issues"
   },
   "dependencies": {
+    "@babel/runtime": "^7.23.9",
     "@radix-ui/react-tooltip": "^1.0.7",
     "@rn-primitives/internal-types": "workspace:*",
+    "@rn-primitives/portal": "workspace:*",
     "@rn-primitives/slot": "workspace:*",
     "@rn-primitives/use-augmented-ref": "workspace:*",
     "@rn-primitives/use-relative-position": "workspace:*",

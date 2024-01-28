@@ -28,12 +28,11 @@ type AccordionRootProps = AccordionContext & {
   orientation?: 'vertical' | 'horizontal';
 };
 
-interface ItemProps {
+interface AccordionItemProps {
   value: string;
   disabled?: boolean;
 }
 
-type AccordionItemProps = ItemProps;
 type AccordionContentProps = ForceMountable;
 
 export type {

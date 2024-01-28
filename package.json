@@ -7,6 +7,10 @@
     "packages/*/*"
   ],
   "scripts": {
+    "build": "yarn build:config && yarn build:packages; yarn build:cleanup",
+    "build:cleanup": "mv tsconfig.json tsconfig.production.json && mv tsconfig.tmp.json tsconfig.json",
+    "build:config": "mv tsconfig.json tsconfig.tmp.json && mv tsconfig.production.json tsconfig.json",
+    "build:packages": "parcel build 'packages/*/*' --no-cache",
     "types:check": "tsc --skipLibCheck --noEmit"
   },
   "dependencies": {
@@ -15,8 +19,12 @@
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@babel/plugin-transform-typescript": "^7.16.8",
+    "@parcel/babel-plugin-transform-runtime": "^2.11.0",
+    "@parcel/packager-ts": "2.11.0",
+    "@parcel/transformer-typescript-types": "^2.4.1",
     "@types/node": "^20.11.7",
     "@types/react": "~18.2.14",
+    "parcel": "^2.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.72.6",

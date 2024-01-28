@@ -34,6 +34,7 @@
     "url": "https://github.com/roninoss/rn-primitives/issues"
   },
   "dependencies": {
+    "@babel/runtime": "^7.23.9",
     "@radix-ui/react-menubar": "^1.0.4",
     "@rn-primitives/empty-gesture-recognizer-event": "workspace:*",
     "@rn-primitives/internal-types": "workspace:*",
