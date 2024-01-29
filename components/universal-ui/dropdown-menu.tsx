@@ -14,7 +14,7 @@ import {
   ViewStyle,
 } from 'react-native';
 import { TextClassContext } from '~/components/universal-ui/typography';
-import * as DropdownMenuPrimitive from '~/lib/rn-primitives/dropdown-menu';
+import * as DropdownMenuPrimitive from '@rn-primitives/dropdown-menu';
 import { cn } from '~/lib/utils';
 
 const DropdownMenu = DropdownMenuPrimitive.Root;

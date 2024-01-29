@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View } from 'react-native';
-import * as Toggle from '~/lib/rn-primitives/toggle';
-import { cn } from '~/lib/utils';
+import * as Toggle from '@rn-primitives/toggle';
+import { cn } from '@rn-primitives/cn';
 
 export default function TogglePrimitiveScreen() {
   const [pressed, setPressed] = React.useState(false);

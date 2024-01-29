@@ -3,8 +3,10 @@ import * as React from 'react';
 
 import { useColorScheme } from 'nativewind';
 import { Platform, Pressable, Text, View } from 'react-native';
-import { cn, isTextChildren } from '~/lib/utils';
-import * as Slot from '~/lib/rn-primitives/slot/slot-native';
+import { cn } from '~/lib/utils';
+import { isTextChildren } from '~/lib/utils';
+// TODO: wants to import /slot-native
+import * as Slot from '@rn-primitives/slot';
 
 const buttonVariants = cva(
   'flex-row items-center justify-center rounded-md web:ring-offset-background web:transition-colors web:focus-visible:outline-none web:focus-visible:ring-2 web:focus-visible:ring-ring web:focus-visible:ring-offset-2',

@@ -12,7 +12,8 @@ import {
   ViewStyle,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import * as Slot from '~/lib/rn-primitives/slot/slot-native';
+// TODO: wants to import /slot-native
+import * as Slot from '@rn-primitives/slot';
 import { cn } from '~/lib/utils';
 import { Button, buttonVariants } from './button';
 

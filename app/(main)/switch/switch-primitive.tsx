@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
-import * as Switch from '~/lib/rn-primitives/switch';
-import { cn } from '~/lib/utils';
+import * as Switch from '@rn-primitives/switch';
+import { cn } from '@rn-primitives/cn';
 
 export default function SwitchPrimitiveScreen() {
   const [on, setOn] = React.useState(false);

@@ -6,7 +6,7 @@ import {
   toggleVariants,
 } from '~/components/universal-ui/toggle';
 import { TextClassContext } from '~/components/universal-ui/typography';
-import * as ToggleGroupPrimitive from '~/lib/rn-primitives/toggle-group';
+import * as ToggleGroupPrimitive from '@rn-primitives/toggle-group';
 import { cn } from '~/lib/utils';
 
 const ToggleGroupContext = React.createContext<VariantProps<

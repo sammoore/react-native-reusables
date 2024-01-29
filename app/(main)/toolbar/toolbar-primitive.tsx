@@ -1,8 +1,8 @@
 import { AlignCenter, AlignLeft, Bold, Italic } from 'lucide-react-native';
 import React from 'react';
 import { Text, View } from 'react-native';
-import * as Toolbar from '~/lib/rn-primitives/toolbar';
-import { cn } from '~/lib/utils';
+import * as Toolbar from '@rn-primitives/toolbar';
+import { cn } from '@rn-primitives/cn';
 
 export default function ToolbarPrimitiveScreen() {
   const [singleValue, setSingleValue] = React.useState<string>();

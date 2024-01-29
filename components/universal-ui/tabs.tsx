@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { TextClassContext } from '~/components/universal-ui/typography';
-import * as TabsPrimitive from '~/lib/rn-primitives/tabs';
+import * as TabsPrimitive from '@rn-primitives/tabs';
 import { cn } from '~/lib/utils';
 
 const Tabs = TabsPrimitive.Root;

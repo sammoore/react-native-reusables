@@ -2,7 +2,7 @@ import { ChevronDown } from 'lucide-react-native';
 import React from 'react';
 import { Platform, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import * as Select from '~/lib/rn-primitives/select';
+import * as Select from '@rn-primitives/select';
 
 const VALUES = [
   { value: 'volvo', label: 'Volvo' },

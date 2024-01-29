@@ -2,8 +2,9 @@ import { useHeaderHeight } from '@react-navigation/elements';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import * as ContextMenu from '~/lib/rn-primitives/context-menu';
-import { PortalHost } from '~/lib/rn-primitives/portal/portal-native';
+import * as ContextMenu from '@rn-primitives/context-menu';
+// TODO: wants to import @rn-primitives/portal/portal-native
+import { PortalHost } from '@rn-primitives/portal';
 
 export default function ContextPrimitiveScreen() {
   const headerHeight = useHeaderHeight();

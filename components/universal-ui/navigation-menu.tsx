@@ -1,7 +1,7 @@
 import { cva } from 'class-variance-authority';
 import { ChevronDown } from 'lucide-react-native';
 import * as React from 'react';
-import * as NavigationMenuPrimitive from '~/lib/rn-primitives/navigation-menu';
+import * as NavigationMenuPrimitive from '@rn-primitives/navigation-menu';
 
 import { Platform, View } from 'react-native';
 import Animated, {

@@ -2,8 +2,8 @@ import { useHeaderHeight } from '@react-navigation/elements';
 import React from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import * as Popover from '~/lib/rn-primitives/popover';
-import { PortalHost } from '~/lib/rn-primitives/portal';
+import * as Popover from '@rn-primitives/popover';
+import { PortalHost } from '@rn-primitives/portal';
 
 function getSide(): 'bottom' | 'top' {
   return 'bottom';

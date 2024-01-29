@@ -5,7 +5,7 @@ import {
   buttonTextVariants,
   buttonVariants,
 } from '~/components/universal-ui/button';
-import * as AlertDialogPrimitive from '~/lib/rn-primitives/alert-dialog';
+import * as AlertDialogPrimitive from '@rn-primitives/alert-dialog';
 import { cn } from '~/lib/utils';
 import { TextClassContext } from '~/components/universal-ui/typography';
 

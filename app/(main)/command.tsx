@@ -28,7 +28,7 @@ import {
   CommandListItemProps,
   CommandTrigger,
 } from '~/components/ui/command';
-import { cn } from '~/lib/utils';
+import { cn } from '@rn-primitives/cn';
 
 export default function CommandScreen() {
   const renderSectionHeader = React.useCallback(

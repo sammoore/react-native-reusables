@@ -1,11 +1,11 @@
 import { cva, type VariantProps } from 'class-variance-authority';
 import * as React from 'react';
 import { Pressable } from 'react-native';
-import * as Slot from '~/lib/rn-primitives/slot';
+import * as Slot from '@rn-primitives/slot';
 import type {
   PressableRef,
   SlottablePressableProps,
-} from '~/lib/rn-primitives/types';
+} from '@rn-primitives/internal-types';
 import { cn } from '~/lib/utils';
 import { TextClassContext } from '~/components/universal-ui/typography';
 

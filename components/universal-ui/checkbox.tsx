@@ -1,6 +1,6 @@
 import { Check } from 'lucide-react-native';
 import * as React from 'react';
-import * as CheckboxPrimitive from '~/lib/rn-primitives/checkbox';
+import * as CheckboxPrimitive from '@rn-primitives/checkbox';
 
 import { Platform } from 'react-native';
 import { cn } from '~/lib/utils';

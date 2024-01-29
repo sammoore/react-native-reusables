@@ -1,6 +1,6 @@
 import { cva, type VariantProps } from 'class-variance-authority';
 import * as React from 'react';
-import * as LabelPrimitive from '~/lib/rn-primitives/label';
+import * as LabelPrimitive from '@rn-primitives/label';
 import { cn } from '~/lib/utils';
 
 const labelVariants = cva(

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View } from 'react-native';
-import * as Tabs from '~/lib/rn-primitives/tabs';
-import { cn } from '~/lib/utils';
+import * as Tabs from '@rn-primitives/tabs';
+import { cn } from '@rn-primitives/cn';
 
 export default function TabsPrimitiveScreen() {
   const [value, setValue] = React.useState('Blue');

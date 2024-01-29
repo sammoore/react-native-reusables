@@ -7,7 +7,7 @@ import {
 import * as React from 'react';
 import { Platform, Text, View } from 'react-native';
 import { TextClassContext } from '~/components/universal-ui/typography';
-import * as MenubarPrimitive from '~/lib/rn-primitives/menubar';
+import * as MenubarPrimitive from '@rn-primitives/menubar';
 import { cn } from '~/lib/utils';
 
 const MenubarMenu = MenubarPrimitive.Menu;

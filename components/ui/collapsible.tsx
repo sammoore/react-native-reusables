@@ -3,7 +3,8 @@ import React from 'react';
 import { GestureResponderEvent, Pressable, View } from 'react-native';
 import Animated, { FadeInDown, FadeOutUp } from 'react-native-reanimated';
 import { buttonVariants } from '~/components/ui/button';
-import * as Slot from '~/lib/rn-primitives/slot/slot-native';
+// TODO: wants to import /slot-native
+import * as Slot from '@rn-primitives/slot';
 import { cn } from '~/lib/utils';
 
 interface CollapsibleProps {

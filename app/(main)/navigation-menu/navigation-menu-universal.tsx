@@ -13,8 +13,9 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from '~/components/universal-ui/navigation-menu';
-import { TextRef } from '~/lib/rn-primitives/types';
-import { cn } from '~/lib/utils';
+// TODO: rename internal-types?
+import { TextRef } from '@rn-primitives/internal-types';
+import { cn } from '@rn-primitives/cn';
 import { Text } from '~/components/universal-ui/typography';
 
 export default function MenubarPrimitiveScreen() {

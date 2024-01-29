@@ -11,8 +11,10 @@ import {
 import Animated, { FadeInUp, SlideInUp } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useKeyboard } from '~/lib/keyboard';
-import * as Slot from '~/lib/rn-primitives/slot/slot-native';
-import { cn, isTextChildren } from '~/lib/utils';
+// TODO: wants to import /slot-native
+import * as Slot from '@rn-primitives/slot';
+import { cn } from '~/lib/utils';
+import { isTextChildren } from '~/lib/utils';
 import { Button } from './button';
 import { Input } from './input';
 import { SectionList } from './section-list';

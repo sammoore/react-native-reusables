@@ -2,7 +2,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import * as LucideIcon from 'lucide-react-native';
 import * as React from 'react';
 import { TextClassContext } from '~/components/universal-ui/typography';
-import * as TogglePrimitive from '~/lib/rn-primitives/toggle';
+import * as TogglePrimitive from '@rn-primitives/toggle';
 import { cn } from '~/lib/utils';
 
 const toggleVariants = cva(

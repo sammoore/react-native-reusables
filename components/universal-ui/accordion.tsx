@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as AccordionPrimitive from '~/lib/rn-primitives/accordion';
+import * as AccordionPrimitive from '@rn-primitives/accordion';
 
 import { ChevronDown } from 'lucide-react-native';
 import { Platform, View } from 'react-native';

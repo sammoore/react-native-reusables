@@ -11,7 +11,8 @@ import {
 } from 'react-native';
 import { cn } from '~/lib/utils';
 import { Button } from '~/components/ui/button';
-import * as Slot from '~/lib/rn-primitives/slot/slot-native';
+// TODO: wants to import /slot-native
+import * as Slot from '@rn-primitives/slot';
 
 interface AlertDialogProps {
   children: React.ReactNode;

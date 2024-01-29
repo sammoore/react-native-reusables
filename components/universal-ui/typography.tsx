@@ -1,5 +1,6 @@
-import * as Slot from '~/lib/rn-primitives/slot';
-import { SlottableTextProps, TextRef } from '~/lib/rn-primitives/types';
+import * as Slot from '@rn-primitives/slot';
+// TODO: rename internal-types?
+import { SlottableTextProps, TextRef } from '@rn-primitives/internal-types';
 import { Platform } from 'react-native';
 import { cn } from '~/lib/utils';
 import * as React from 'react';

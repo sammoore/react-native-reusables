@@ -13,7 +13,7 @@ import {
   View,
   ViewStyle,
 } from 'react-native';
-import * as ContextMenuPrimitive from '~/lib/rn-primitives/context-menu';
+import * as ContextMenuPrimitive from '@rn-primitives/context-menu';
 import { cn } from '~/lib/utils';
 import { TextClassContext } from '~/components/universal-ui/typography';
 

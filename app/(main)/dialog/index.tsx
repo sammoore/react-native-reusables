@@ -16,7 +16,7 @@ import {
   Dialog,
 } from '~/components/ui/dialog';
 import { Input } from '~/components/ui/input';
-import { cn } from '~/lib/utils';
+import { cn } from '@rn-primitives/cn';
 
 export default function DialogScreen() {
   const [wasCopied, setWasCopied] = React.useState(false);
