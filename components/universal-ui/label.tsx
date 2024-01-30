@@ -30,6 +30,8 @@ const LabelText = React.forwardRef<
     {...props}
   />
 ));
+console.log('label root primitive:', LabelPrimitive.Root);
+console.log('label text primitive:', LabelPrimitive.Text);
 LabelText.displayName = LabelPrimitive.Text.displayName;
 
 export { Label, LabelText };

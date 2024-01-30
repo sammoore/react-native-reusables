@@ -3,7 +3,7 @@ import { Platform, ScrollView, TextInput, View, Text } from 'react-native';
 import Animated, { FadeInDown, FadeOut } from 'react-native-reanimated';
 import { Input } from '~/components/universal-ui/input';
 import { Label, LabelText } from '~/components/universal-ui/label';
-import { cn } from '@rn-primitives/cn';
+import { cn } from '~/lib/utils';
 
 export default function InputScreen() {
   const inputRef = React.useRef<TextInput>(null);

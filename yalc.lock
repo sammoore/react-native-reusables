@@ -1,0 +1,141 @@
+{
+  "version": "v1",
+  "packages": {
+    "@rn-primitives/toggle-group-utils": {
+      "signature": "5246b139bfb64fc2249cbf3ee6d3315c",
+      "file": true
+    },
+    "@rn-primitives/accordion": {
+      "signature": "ea5d843b267d6504ee3a5ade4bf8e595",
+      "file": true
+    },
+    "@rn-primitives/alert-dialog": {
+      "signature": "7b0bfcbb04560f6c18aa9a77652e77b6",
+      "file": true
+    },
+    "@rn-primitives/aspect-ratio": {
+      "signature": "0ae48de4196adf4f48d0a0c8e11b7e3d",
+      "file": true
+    },
+    "@rn-primitives/avatar": {
+      "signature": "3745b3eecf76fd094bd2e85b5f07ddff",
+      "file": true
+    },
+    "@rn-primitives/checkbox": {
+      "signature": "1e9edd737c1d27d33ae3f79ba604cbd8",
+      "file": true
+    },
+    "@rn-primitives/collapsible": {
+      "signature": "0df57ba31355b585ef4afee41b0fe8d7",
+      "file": true
+    },
+    "@rn-primitives/context-menu": {
+      "signature": "917b1d73593c2c23b5affebcc77bcdcc",
+      "file": true
+    },
+    "@rn-primitives/dialog": {
+      "signature": "56678fed20d73248ad8124085697c8aa",
+      "file": true
+    },
+    "@rn-primitives/dropdown-menu": {
+      "signature": "b7738d89651271cb6f4dabb94e26d744",
+      "file": true
+    },
+    "@rn-primitives/empty-gesture-recognizer-event": {
+      "signature": "7a86189963e3ad5d4022ba8d7271ea26",
+      "file": true
+    },
+    "@rn-primitives/hover-card": {
+      "signature": "b09f89ba5afabf14a385f39d6d2b2a27",
+      "file": true
+    },
+    "@rn-primitives/internal-types": {
+      "signature": "c6cf2d3803fc1a1922abbf2081cb6850",
+      "file": true
+    },
+    "@rn-primitives/label": {
+      "signature": "0d2ccc8ff726ab3efe8af3ab0761003b",
+      "file": true
+    },
+    "@rn-primitives/menubar": {
+      "signature": "a863ee8ad223152efb0e664be79f0e7f",
+      "file": true
+    },
+    "@rn-primitives/navigation-menu": {
+      "signature": "fcb40b16bd7e54f98a77b4766e9cbb2f",
+      "file": true
+    },
+    "@rn-primitives/popover": {
+      "signature": "461b212e144cee95646402cf6ca9ae5e",
+      "file": true
+    },
+    "@rn-primitives/portal": {
+      "signature": "ec4d3f66933e4875fcd537771fb7f3c8",
+      "file": true
+    },
+    "@rn-primitives/progress": {
+      "signature": "2b7dd898ce61b3551e55a4d80d3f0d07",
+      "file": true
+    },
+    "@rn-primitives/radio-group": {
+      "signature": "3a09cc323b68ecbb0de11cefee432420",
+      "file": true
+    },
+    "@rn-primitives/select": {
+      "signature": "36829d851bccd1493e43e806204ac197",
+      "file": true
+    },
+    "@rn-primitives/separator": {
+      "signature": "f25c133a05177593d2eec171dc7825af",
+      "file": true
+    },
+    "@rn-primitives/slider": {
+      "signature": "ac6f84534ada1100cbe8af4ac7c43b14",
+      "file": true
+    },
+    "@rn-primitives/slot": {
+      "signature": "fabefede91f08dc7749472c26a01b8d1",
+      "file": true
+    },
+    "@rn-primitives/switch": {
+      "signature": "adb4ce51aeb0ce882e4a62d24aef968b",
+      "file": true
+    },
+    "@rn-primitives/table": {
+      "signature": "081438077a5c1068df9a21763bec7ffc",
+      "file": true
+    },
+    "@rn-primitives/tabs": {
+      "signature": "96b2dfee910ff77fef7d21a0149b8af8",
+      "file": true
+    },
+    "@rn-primitives/toast": {
+      "signature": "1d1a9b35ea50693c35b8ec2a7734bf6d",
+      "file": true
+    },
+    "@rn-primitives/toggle": {
+      "signature": "5ba606e059e7f2811d671814ac0bf665",
+      "file": true
+    },
+    "@rn-primitives/toggle-group": {
+      "signature": "603538339c6990ed3dd35a93b6b4e460",
+      "file": true
+    },
+    "@rn-primitives/toolbar": {
+      "signature": "34cab4249756d04dd2bd01948f412e8a",
+      "file": true
+    },
+    "@rn-primitives/tooltip": {
+      "signature": "c607be3d3a3fd3867d1044c722f1e0f7",
+      "file": true
+    },
+    "@rn-primitives/use-augmented-ref": {
+      "signature": "848a4669fef45673bdf2dcbc529ce00a",
+      "file": true
+    },
+    "@rn-primitives/use-relative-position": {
+      "signature": "0d376257ba01a33c2873386e52f70bdf",
+      "file": true
+    }
+  }
+}

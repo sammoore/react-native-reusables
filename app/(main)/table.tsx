@@ -19,7 +19,7 @@ import {
   TableHeader,
   TableRow,
 } from '~/components/ui/table';
-import { cn } from '@rn-primitives/cn';
+import { cn } from '~/lib/utils';
 
 const { width } = Dimensions.get('window');
 

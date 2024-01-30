@@ -15,7 +15,7 @@ import {
   buttonVariants,
 } from '~/components/ui/button';
 import { Label } from '~/components/ui/label';
-import { cn } from '@rn-primitives/cn';
+import { cn } from '~/lib/utils';
 
 export default function BottomSheetScreen() {
   const nameInputRef =

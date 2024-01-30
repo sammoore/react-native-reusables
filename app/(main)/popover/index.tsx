@@ -9,7 +9,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from '~/components/ui/popover';
-import { cn } from '@rn-primitives/cn';
+import { cn } from '~/lib/utils';
 
 const { height } = Dimensions.get('window');
 

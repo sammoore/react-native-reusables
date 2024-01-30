@@ -1,7 +1,7 @@
 import React from 'react';
 import { Pressable, View, Text, Platform } from 'react-native';
 import * as Slider from '@rn-primitives/slider';
-import { cn } from '@rn-primitives/cn';
+import { cn } from '~/lib/utils';
 
 export default function SliderPrimitiveScreen() {
   const [value, setValue] = React.useState(50);

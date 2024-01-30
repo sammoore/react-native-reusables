@@ -10,7 +10,7 @@ import {
 } from '~/components/ui/bottom-sheet';
 import { Button, buttonTextVariants } from '~/components/ui/button';
 import { Calendar } from '~/components/ui/calendar';
-import { cn } from '@rn-primitives/cn';
+import { cn } from '~/lib/utils';
 
 export default function DatePickerScreen() {
   const [selectedDate, setSelectedDate] = React.useState('');

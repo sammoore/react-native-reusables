@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 import * as ToggleGroup from '@rn-primitives/toggle-group';
-import { cn } from '@rn-primitives/cn';
+import { cn } from '~/lib/utils';
 
 export default function ToggleGroupPrimitiveScreen() {
   const [singleValue, setSingleValue] = React.useState<string>();

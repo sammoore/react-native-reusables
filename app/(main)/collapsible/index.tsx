@@ -8,7 +8,7 @@ import {
   CollapsibleHeader,
   CollapsibleTrigger,
 } from '~/components/ui/collapsible';
-import { cn } from '@rn-primitives/cn';
+import { cn } from '~/lib/utils';
 
 export default function CollapsibleScreen() {
   return (

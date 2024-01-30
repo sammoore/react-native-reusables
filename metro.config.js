@@ -11,7 +11,7 @@ const config = getDefaultConfig(__dirname, {
 const { resolver } = config;
 config.resolver = {
   ...resolver,
-  sourceExts: [...resolver.sourceExts, 'mjs', 'cjs'],
+  sourceExts: [...resolver.sourceExts, 'mjs', 'cjs', 'mts'],
 };
 
 module.exports = withNativeWind(config, { input: './global.css' });
